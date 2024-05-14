@@ -1,0 +1,86 @@
+feature & master branch
+
+1st palace on feature branch and then merge with master branch 
+
+-------------------------------------------------------------
+--Commands-----------
+
+Shivani Negi@DESKTOP-E9VPQUM MINGW64 ~/Desktop/GitHub
+$ git clone https://github.com/Devnegi92/DE_batch12_training.git
+Cloning into 'DE_batch12_training'...
+info: please complete authentication in your browser...
+warning: You appear to have cloned an empty repository.
+
+Shivani Negi@DESKTOP-E9VPQUM MINGW64 ~/Desktop/GitHub
+$ cd DE_batch12_training/
+
+Shivani Negi@DESKTOP-E9VPQUM MINGW64 ~/Desktop/GitHub/DE_batch12_training (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        data2.csv
+
+nothing added to commit but untracked files present (use "git add" to
+track)
+
+Shivani Negi@DESKTOP-E9VPQUM MINGW64 ~/Desktop/GitHub/DE_batch12_training (main)
+$ git add -A
+
+Shivani Negi@DESKTOP-E9VPQUM MINGW64 ~/Desktop/GitHub/DE_batch12_training (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   data2.csv
+
+
+Shivani Negi@DESKTOP-E9VPQUM MINGW64 ~/Desktop/GitHub/DE_batch12_training (main)
+$ git commit -m "Adding my 1st file"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Shivani Negi@DESKTOP-
+E9VPQUM.(none)')
+
+Shivani Negi@DESKTOP-E9VPQUM MINGW64 ~/Desktop/GitHub/DE_batch12_training (main)
+$ git config --global user.email "deepak1992negi@gmail.com"
+
+Shivani Negi@DESKTOP-E9VPQUM MINGW64 ~/Desktop/GitHub/DE_batch12_training (main)
+$ git config --global user.name "Devnegi92"
+
+Shivani Negi@DESKTOP-E9VPQUM MINGW64 ~/Desktop/GitHub/DE_batch12_training (main)
+$ git commit -m "Adding my 1st file"
+[main (root-commit) 321ae85] Adding my 1st file
+ 1 file changed, 33 insertions(+)
+ create mode 100644 data2.csv
+
+Shivani Negi@DESKTOP-E9VPQUM MINGW64 ~/Desktop/GitHub/DE_batch12_training (main)
+$ git push origin
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 548 bytes | 548.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Devnegi92/DE_batch12_training.git
+ * [new branch]      main -> main
+
+Shivani Negi@DESKTOP-E9VPQUM MINGW64 ~/Desktop/GitHub/DE_batch12_training (main)
+
+
